@@ -1,4 +1,4 @@
-FROM jupyterhub/k8s-hub:v0.7
+FROM jupyterhub/k8s-hub:0.7.0
 
 USER root
 COPY hub/favicon.ico /usr/local/share/jupyterhub/static/favicon.ico
