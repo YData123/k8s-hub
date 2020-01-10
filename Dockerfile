@@ -1,4 +1,4 @@
-FROM jupyterhub/k8s-hub:jupyterhub-0.9.0-beta.2.000.bed779e
+FROM jupyterhub/k8s-hub:0.9.0-beta.2.000.bed779e
 
 USER root
 COPY hub/favicon.ico /usr/local/share/jupyterhub/static/favicon.ico
